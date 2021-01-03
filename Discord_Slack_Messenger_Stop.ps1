@@ -1,10 +1,10 @@
-Stop-Process -Name "discord" -Confirm -PassThru
+Stop-Process -Name "discord"
 Write-Host "`nDiscord has been stopped.`n"
-Stop-Process -Name "messenger" -Confirm -PassThru
+Stop-Process -Name "messenger"
 Write-Host "`nMessenger has been stopped.`n"
-Stop-Process -Name "slack" -Confirm -PassThru
+Stop-Process -Name "slack"
 Write-Host "`nSlack has been stopped.`n"
-Stop-Process -Name "Avro Keyboard" -Confirm -PassThru
+Stop-Process -Name "Avro Keyboard"
 Write-Host "`nAvro Keyboard has been stopped.`n"
 Stop-Process -Name "AdobeIPCBroker"
 Write-Host "`nAdobeIPCBroker has been stopped.`n"
