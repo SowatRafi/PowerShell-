@@ -4,6 +4,8 @@ Stop-Process -Name "messenger"
 Write-Host "`nMessenger has been stopped.`n"
 Stop-Process -Name "slack"
 Write-Host "`nSlack has been stopped.`n"
+Stop-Process -Name "Avro Keyboard"
+Write-Host "`nAvro Keyboard has been stopped.`n"
 Stop-Process -Name "AdobeIPCBroker"
 Write-Host "`nAdobeIPCBroker has been stopped.`n"
 
