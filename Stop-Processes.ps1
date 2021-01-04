@@ -9,3 +9,5 @@ Write-Host "`nAdobeIPCBroker has been stopped.`n"
 
 
 Write-Host "Congratulations! All apps have been stopped successfully."
+
+exit
