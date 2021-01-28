@@ -1,0 +1,11 @@
+Open Powershell in administrator mode.
+
+diskpart
+list vol
+sel vol 'number' (FAT32)
+assign letter=Z:
+
+cd Z:
+dir
+cd EFI
+rmdir 'the linux folder'
